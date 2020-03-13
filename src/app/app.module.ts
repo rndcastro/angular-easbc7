@@ -34,7 +34,7 @@ registerLocaleData(localePt);
   ],
   bootstrap: [ AppComponent ],
   providers: [
-        { provide: LOCALE_ID, useValue: "pt-BR", providers: [CartServiceService] }
+        { provide: LOCALE_ID, useValue: "pt-BR", }
   ]
 })
 export class AppModule { }
