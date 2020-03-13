@@ -9,7 +9,7 @@ export class CartService {
 
   constructor() { }
 
-  addTocart(product){
+  addToCart(product){
     this.itens.push(product);
   }
 
