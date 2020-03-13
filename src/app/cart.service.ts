@@ -11,7 +11,7 @@ export class CartService {
 
   addToCart(product){
     this.itens.push(product);
-    window.alert("Product added to the cart!");
+    window.alert("Product has been added to the cart!");
   }
 
   getItens(){
